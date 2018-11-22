@@ -46,3 +46,10 @@ h2 {
      border-radius:10px;/*ボタン10px丸く*/
      background-color:#fc0000;
    }
+
+@media (max-width:768px){
+   .contaner {
+      flex-direction:column;/*要素を縦並び */
+   }
+   .header{ height: 250px;}
+}
