@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+h1 { text-align:center;
+   padding:30px;
+}
+
+.header {
+   height:500px;
+   background-image:url(../img/ma.jpg);
+   width:100%;
+   background-size:cover;/*縦横の比率を保持して、表示領域全体を覆うように背景画像を表示する。*/
+   background-position:right bottom;/*イメージの右下を表示する*/
+}
+.contaner{
+   display:flex; /* 中の要素を横並びにします */
+   margin-bottom:30px;
+}
+
+.selected {
+   background-color:#f4dacb;
+   flex:1; /* 同じ割合で画面幅いっぱいに広げますよ */
+   margin:10px; /* 要素の外側の余白*/
+   text-align:center; /*文字を中央寄せ*/
+   background-size:100px;
+   }
+
+h2 { 
+   background-color:#fc0000;
+   padding:10px;
+   font-family:Osaka;
+   font-weight:100;
+   }
+   
+   p { text-align:center;
+      padding:10px;
+   }
+
+.footer{
+   background-color:#f4dacb;
+   padding:20px;
+   text-align:center;
+   }
+   
+   button { 
+     border-radius:10px;/*ボタン10px丸く*/
+     background-color:#fc0000;
+   }
